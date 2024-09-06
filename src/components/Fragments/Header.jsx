@@ -33,7 +33,7 @@ const Header = (props) => {
         }`}
       >
         <div className="flex items-center w-full h-10 md:w-52">
-          <a href="index.html">
+          <a href="/">
             <img src={Logo} alt="Logo" className="w-16" />
           </a>
           <p className="-ml-3 text-xs font-semibold text-gradient text-orange-300">

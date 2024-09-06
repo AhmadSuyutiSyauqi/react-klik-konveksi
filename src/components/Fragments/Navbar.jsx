@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="navbar-center flex justify-around">
               <ul className="menu menu-horizontal px-1 mr-10">
                 <li className="mr-3 ">
-                  <a href="/home">Beranda</a>
+                  <a href="/">Beranda</a>
                 </li>
 
                 <li className="w-40 -mr-14">
@@ -16,22 +16,22 @@ const Navbar = () => {
                     <summary className="">Pesan</summary>
                     <ul className="p-2">
                       <li>
-                        <a href="home#bahan-kemeja">Bahan Kemeja</a>
+                        <a href="/#bahan-kemeja">Bahan Kemeja</a>
                       </li>
                       <li>
-                        <a href="home#bahan-jaket">Bahan Jaket</a>
+                        <a href="/#bahan-jaket">Bahan Jaket</a>
                       </li>
                       <li>
-                        <a href="home#bahan-kaos">Bahan Kaos</a>
+                        <a href="/#bahan-kaos">Bahan Kaos</a>
                       </li>
                       <li>
-                        <a href="home#aksesoris">Aksesoris</a>
+                        <a href="/#aksesoris">Aksesoris</a>
                       </li>
                       <li>
-                        <a href="home#proses-produk">Proses Produksi</a>
+                        <a href="/#proses-produk">Proses Produksi</a>
                       </li>
                       <li>
-                        <a href="home#FAQs-produk">Pertanyaan</a>
+                        <a href="/#FAQs-produk">Pertanyaan</a>
                       </li>
                     </ul>
                   </details>
