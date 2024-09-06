@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Di file CSS global (misalnya, src/index.css) */
+html {
+  scroll-behavior: smooth;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Global Swiper styling */
+/* Global Swiper styling */
+.swiper-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%; /* Ensure slide takes full height of its container */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh; /* Ensure the hero section takes full viewport height */
+}
+
+/* Tambahkan aturan ini di output.css */
+#sidebar.collapsed {
+  width: 100px; /* Lebar sidebar ketika menyusut */
+}
+
+#sidebar.collapsed nav {
+  display: none; /* Sembunyikan teks menu saat sidebar menyusut */
+}
+
+#sidebar nav {
+  margin-left: 10px;
+  transition: opacity 0.3s ease; /* Animasi perubahan opasitas */
+}
+
+#sidebar.collapsed nav {
+  opacity: 0; /* Hilangkan teks menu saat sidebar menyusut */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+  
