@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import Button from "../Elements/Button";
-import HomePage from "../../pages/home";
 
 const Navbar = () => {
     return (
@@ -10,7 +8,7 @@ const Navbar = () => {
             <div className="navbar-center flex justify-around">
               <ul className="menu menu-horizontal px-1 mr-10">
                 <li className="mr-3 ">
-                 <Link to='/'>Beranda</Link>
+                  <a href="/home">Beranda</a>
                 </li>
 
                 <li className="w-40 -mr-14">
